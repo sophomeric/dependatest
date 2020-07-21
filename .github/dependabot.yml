@@ -5,7 +5,7 @@ updates:
   - package-ecosystem: "docker"
     directory: "/"
     ignore:
-      - dependency-name: "php"
+      - dependency-name: "php*"
         versions: ['7.4-fpm']
     schedule:
       interval: "daily"
