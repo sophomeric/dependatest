@@ -1,0 +1,11 @@
+# https://docs.github.com/en/github/administering-a-repository/enabling-and-disabling-version-updates
+version: 2
+updates:
+  # Keep Dockerfile up to date
+  - package-ecosystem: "docker"
+    directory: "/"
+    ignore:
+      - dependency-name: "php"
+        version: ['7.4.x']
+    schedule:
+      interval: "daily"
