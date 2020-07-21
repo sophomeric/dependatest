@@ -6,6 +6,6 @@ updates:
     directory: "/"
     ignore:
       - dependency-name: "php"
-        versions: ['>= 7.4.0']
+        versions: ['>= 7.4']
     schedule:
       interval: "daily"
